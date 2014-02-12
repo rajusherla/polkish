@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?>
+<job xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://core.wcg.etools.ibm.com/xsd/xJCL.xsd" name="SWInsertTrainersJob" default-application-name="swInsertTrainersEAR">
+  <job-type>Compute Intensive</job-type>
+  <jndi-name>ejb/SWInsertTrainersJobBatchController</jndi-name>
+  <step-scheduling-criteria>
+    <scheduling-mode>sequential</scheduling-mode>
+  </step-scheduling-criteria>
+  <substitution-props>
+    <prop name="resource" value="SWInsertTrainers.properties"/>
+  </substitution-props>
+  <job-step name="SWInsertTrainersJobStep">
+    <classname>com.polaris.batch.SWInsertTrainers.SWInsertTrainersJobAction</classname>
+    <props>
+    	<prop name="resourcefile" value="${resource}" />
+    </props>
+  </job-step>
+</job>

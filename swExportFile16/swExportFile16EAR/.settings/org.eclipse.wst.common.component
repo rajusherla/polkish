@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="swExportFile16EAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="swExportFile16EJB.jar" deploy-path="/" handle="module:/resource/swExportFile16EJB/swExportFile16EJB">
+            <dependent-object>EjbModule_1390727271278</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swExportFile16.jar" deploy-path="/" handle="module:/resource/swExportFile16/swExportFile16">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

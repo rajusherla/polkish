@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="swInsertTrainersEAR">
+        <wb-resource deploy-path="/" source-path="/" tag="defaultRootSource"/>
+        <dependent-module archiveName="swInsertTrainersEJB.jar" deploy-path="/" handle="module:/resource/swInsertTrainersEJB/swInsertTrainersEJB">
+            <dependent-object>EjbModule_1391880423341</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="swInsertTrainers.jar" deploy-path="/" handle="module:/resource/swInsertTrainers/swInsertTrainers">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
